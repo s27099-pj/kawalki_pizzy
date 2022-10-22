@@ -1,0 +1,25 @@
+#include <iostream>
+
+
+
+using namespace std;
+
+int liczba, kawalki, x, y;
+
+int main()
+{
+    cout << "Ilu jest uczestnikow imprezy:";
+    cin >> liczba;
+
+    cout <<"Ile jest kawalkow pizzy:";
+    cin >> kawalki;
+
+    x = (kawalki / liczba);
+    y = (kawalki % liczba);
+
+    cout << "Dla kazdego uczestnika przypadnie " << x << " kawalkow pizzy." << endl;
+    cout << "Dla organizatora zostanie " << y << " kawalkow pizzy." << endl;
+        
+    return 0;
+      
+}
